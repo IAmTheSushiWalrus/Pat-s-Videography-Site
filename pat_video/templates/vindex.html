@@ -1,0 +1,646 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+{% block content %}
+
+
+				<header id="header" class="header-main">
+
+					<!-- Begin Navbar -->
+					<nav id="main-navbar" class="navbar navbar-default navbar-fixed-top navbar-transparent" role="navigation"> <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
+
+						<!-- Begin Top sliding bar -->
+						<section>
+							<div id="top-slidingbar-wrapper">
+								<div id="top-slidingbar">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12">
+												<h3>Oh Hello</h3>
+												<p>You found the little thing in the corner! If you're curious about anything don't hesitate to contact me :)</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="top-slidingbar-trigger-wrapper"><span class="top-slidingbar-trigger">+</span></div>
+							</div>
+						</section>
+						<!-- End Top sliding bar -->
+
+					  <div class="container">
+
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					      <!-- <a class="navbar-brand page-scroll" href="index.html">Crisp Film</a> -->
+					    </div>
+
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav  navbar-right">
+								<li class="active"><a class="page-scroll" href="#body-container">Home</a></li>
+								<li><a class="page-scroll" href="#about-section">About</a></li>
+									<!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
+									<ul class="dropdown-menu dropdown-left" role="menu">
+										<li><a class="page-scroll" href="#about-section">About Us</a></li>
+										<li><a class="page-scroll" href="#counter-up-trigger">Some Facts</a></li>
+										<li><a class="page-scroll" href="#blog-trigger">Latest News</a></li>
+										<li><a class="page-scroll" href="#testimonial-trigger">What Clients Say</a></li>
+									</ul>
+								</li> -->
+								<!-- <li><a class="page-scroll" href="#team-section">Team</a></li> -->
+								<li><a class="page-scroll" href="#services-section">Services</a></li>
+								<!-- <li><a class="page-scroll" href="#prices-section">Prices</a></li> -->
+								<li><a class="page-scroll" href="#portfolio-section">My Work</a></li>
+								<li><a class="page-scroll" href="#contact-section">Contact Me</a></li>
+								<!-- <li class="dropdown dropdown-hover">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <i class="fa fa-long-arrow-down"></i></a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="boxed-layout.html">Boxed Layout</a></li>
+										<li><a href="index.html">Text Carousel Intro</a></li>
+										<li><a href="video-bg-intro.html">Video Intro</a></li>
+										<li><a href="no-scroll-animations.html">No Scroll Animations</a></li>
+										<li><a href="404.html">404 Error Page</a></li>
+									</ul>
+								</li> -->
+							</ul>
+					    </div><!-- /.navbar-collapse -->
+					  </div><!-- /.container -->
+					</nav>
+					<!-- End Navbar -->
+
+				</header>
+				<!--==================
+				///// END HEADER /////
+				======================-->
+
+
+				<!-- Begin video section -->
+				<section id="video-intro-section" style="background-image: url(video/video-1/background.jpg);">
+
+					<!-- Begin cover -->
+					<div class="cover"><div class="cover-inner"></div></div>
+					<!-- End cover -->
+
+					<div class="container">
+						<div class="caption text-center text-white" data-stellar-ratio="0.5">
+							<h3>Brisk Films creates content that is</h3>
+							<!-- Typed-element is configurable through the file "theme.js" -->
+							<h1><span class="typed-element"></span></h1>
+						</div> <!-- /.caption -->
+					</div> <!-- /.container -->
+
+					<!-- Begin mouse icon -->
+					<!-- <a class="mouse-icon page-scroll hidden-sm hidden-xs" href="#about-section" title="Scroll Down" data-stellar-ratio="0.7"><span class="mouse-wheel"></span></a> -->
+					<!-- End mouse icon -->
+
+					<!-- Begin video -->
+					<video class="bgvid hidden-sm hidden-xs" autoplay loop poster="video/video-1/background.jpg">
+						<source src="video/video-1/DemoReelNoSound.mp4" type="video/mp4">
+						<source src="video/video-1/video-1.webm" type="video/webm">
+						<source src="video/video-1/video-1.ogv" type="video/ogg">
+					</video>
+					<!-- End video -->
+
+				</section>
+				<!-- End video section -->
+
+
+				<!-- Begin about section -->
+				<section id="about-section" class="page">
+
+					<!-- Begin page header-->
+					<div class="page-header-wrapper">
+						<div class="container">
+							<div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+								<h1>About <span class="text-main">Me</span></h1>
+								<div class="divider divider-icon divider-md">//</div>
+								<p class="lead text-gray">
+									My name is Donal O'Sullivan. I create visually striking, information-rich media content for my clients with the express purpose of promoting their businesses.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- End page header-->
+
+					<!-- Begin info box-1 -->
+					<div class="info-box-1-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-3 col-sm-6">
+									<a href="#" class="info-box-1 square-icon text-center wow zoomIn" data-wow-delay="0">
+										<span class="info-box-icon"><i class="fa fa-money"></i></span>
+										<div class="info-box-info">
+											<h4>Competetive Rates</h4>
+											<div class="divider divider-sm"></div>
+											<p>By using newer digital technology, I'm able to provide clients with a level of quality that previously cost far more to produce. </p>
+										</div>
+									</a>
+								</div>
+
+								<div class="col-md-3 col-sm-6">
+									<a href="#" class="info-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
+										<span class="info-box-icon"><i class="fa fa-mobile"></i></span>
+										<div class="info-box-info">
+											<h4>Short-Form Focus</h4>
+											<div class="divider divider-sm"></div>
+											<p>Attention is currency. Beyond making your product or service look great, I aim to present your message in the most captivating and concise way possible. </p>
+										</div>
+									</a>
+								</div>
+
+								<div class="col-md-3 col-sm-6">
+									<a href="#" class="info-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
+										<span class="info-box-icon"><i class="fa fa-cogs"></i></span>
+										<div class="info-box-info">
+											<h4>Flexible and Quick</h4>
+											<div class="divider divider-sm"></div>
+											<p>I utilize high-end, lightweight equipment and a small crew (when necessary) to minimise the amount of production time it takes for on-site video shoots. </p>
+										</div>
+									</a>
+								</div>
+
+								<div class="col-md-3 col-sm-6">
+									<a href="#" class="info-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
+										<span class="info-box-icon"><i class="fa fa-paper-plane"></i></span>
+										<div class="info-box-info">
+											<h4>Fast Turnaround Times</h4>
+											<div class="divider divider-sm"></div>
+											<p>Expedited projects can be delivered within 48 hours from the day they're shot. Normal projects usually take a week.  </p>
+										</div>
+									</a>
+								</div>
+							</div> <!-- /.row -->
+						</div> <!-- /.container -->
+					</div>
+					<!-- End info box-1 -->
+
+					<div class="more-space-l"></div>
+
+				</section>
+				<!-- End about section -->
+
+
+
+
+
+				<!-- Begin services section -->
+				<section id="services-section" class="page text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(video/video-1/background.jpg);">
+					<div class="cover"></div>
+
+					<!-- Begin page header-->
+					<div class="page-header-wrapper">
+						<div class="container">
+							<div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+								<h1>What I <span class="text-main">Do</span></h1>
+								<div class="divider divider-md divider-icon divider-white">//</div>
+								<p class="lead">
+									From attention-grabbing Kickstarter videos to eye-popping instagram clips, I can get your message out there in a way that makes it look, sound, and feel compelling.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- End page header-->
+
+					<!-- Begin services -->
+					<div class="services">
+						<div class="container">
+
+							<!-- Begin info box-2 -->
+							<div class="row">
+
+								<div class="col-md-4">
+									<div class="info-box-2 square-icon wow fadeInUp" data-wow-delay="0.5s">
+										<div class="info-box-heading">
+											<span class="info-box-icon"><i class="fa fa-video-camera"></i></span>
+											<h4>Short-Form Videos</h4>
+										</div>
+										<div class="info-box-info">
+											<p>My specialty is creating videos that last anywhere from fifteen seconds to ten minutes, specifically designed for the web and mobile. I aim to produce content that is clear, catchy, and concise. </p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="info-box-2 square-icon wow fadeInUp" data-wow-delay="0.5s">
+										<div class="info-box-heading">
+											<span class="info-box-icon"><i class="fa fa-television"></i></span>
+											<h4>Promo Content</h4>
+										</div>
+										<div class="info-box-info">
+											<p>Sometimes all you need is something for your website or social media that displays how awesome your business is. I can easily create short, beautiful clips that present you in the best light.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="info-box-2 square-icon wow fadeInUp" data-wow-delay="0.5s">
+										<div class="info-box-heading">
+											<span class="info-box-icon"><i class="fa fa-rocket"></i></span>
+											<h4>Product Demo</h4>
+										</div>
+										<div class="info-box-info">
+											<p>Do you need funding for your new app? Did you design a robot that pets indoor cats without making them upset? I can help present, explain, and animate what you're offering to the world.</p>
+										</div>
+									</div>
+								</div>
+
+							</div> <!-- /.row -->
+
+							<!--<div class="row">
+
+								<div class="col-md-4">
+									<div class="info-box-2 square-icon wow fadeInUp" data-wow-delay="0.6s">
+										<div class="info-box-heading">
+											<span class="info-box-icon"><i class="fa fa-users"></i></span>
+											<h4>Marketing</h4>
+										</div>
+										<div class="info-box-info">
+											<p>I am well versed in Adobe software and am ready to work with and around your existing content and campaigns to create something that is congruent with the rest of your media. </p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="info-box-2 square-icon wow fadeInUp" data-wow-delay="0.6s">
+										<div class="info-box-heading">
+											<span class="info-box-icon"><i class="fa fa-line-chart"></i></span>
+											<h4>Event Capture</h4>
+										</div>
+										<div class="info-box-info">
+											<p>Need to capture a special event? From presentations to performances, I can be there with my lightweight setup to record, produce, and edit everything that takes place. 2nd and 3rd shooters are readily available for larger events. </p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4">
+									<div class="info-box-2 square-icon wow fadeInUp" data-wow-delay="0.6s">
+										<div class="info-box-heading">
+											<span class="info-box-icon"><i class="fa fa-life-ring"></i></span>
+											<h4>Photography</h4>
+										</div>
+										<div class="info-box-info">
+											<p>I utilise high-end DSLR cameras and have training and work experience as a photographer as well. If static images are needed I can provide you with photos without the need to hire an additional photographer for the job.</p>
+										</div>
+									</div>
+								</div>
+
+							</div> <!-- /.row -->
+							<!-- End info box-2 -->
+
+						</div><!-- /.container -->
+					</div>
+					<!-- End services -->
+					<div class="more-space-xxl"></div>
+				</section>
+				<!-- End services section -->
+
+
+				<!-- Begin portfolio section -->
+				<section id="portfolio-section" class="page">
+
+					<!-- Begin page header-->
+					<div class="page-header-wrapper">
+						<div class="container">
+							<div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+								<h1>My <span class="text-main">Work</span></h1>
+								<div class="divider divider-md divider-icon">//</div>
+								<p class="lead text-gray">
+									Featured Projects
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- End page header-->
+
+					<!-- Begin portfolio -->
+					<div class="portfolio">
+						<div class="container-fluid">
+							<div class="row">
+
+								<!-- Portfolio item-1 -->
+								<div class="portfolio-item col-sm-6 col-md-6 col-lg-3 wow flipInX" data-wow-delay="0.2s">
+									<a href="#" class="thumbnail" data-toggle="modal" data-target="#portfolioModal-1">
+										<img src="img/portfolio/still-1.jpg" alt="...">
+										<div class="cover"></div>
+										<div class="caption">
+				                            <div class="caption-content text-center">
+				                                <h2>Kickstarter</h2>
+				                                <div class="divider divider-sm"></div>
+												<p>Kickstarter campaign for Living Light that successfully raised over $7,000</p>
+				                            </div>
+				                        </div>
+				                    </a>
+								</div>
+
+								<!-- Begin portfolio modal-1 (Carousel Portfolio) -->
+								<div class="modal fade" id="portfolioModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-6" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content text-white">
+											<div class="close" data-dismiss="modal">
+								                <div class="lr"><div class="rl"></div></div>
+								            </div>
+											<div class="container">
+												<div class="modal-body">
+													<div class="row">
+														<div class="col-lg-7">
+															<div class="embed-responsive embed-responsive-16by9">
+																<iframe src="http://player.vimeo.com/video/162012107" allowfullscreen ></iframe>
+															</div>
+														</div>
+														<div class="col-lg-5">
+															<div class="modal-header">
+																<h2 class="modal-title" id="myModalLabel-6">Living Light Kickstarter Video</h2>
+																<div class="divider divider-sm divider-white divider-left"></div>
+															</div>
+															<div class="modal-text">
+																<p>
+																	Living Light needed to raise five thousand dollars for her second album and tour. Other videographers fell through the cracks and she needed the video shot and delivered within a few days. The video was produced quickly and the campaign eventually raised over seven thousand dollars before the fundraising deadline.
+																</p>
+															</div>
+															<div class="modal-details">
+																<ul>
+									                                <li>Website: <strong><a href="https://www.kickstarter.com/projects/livinglight/living-lights-second-album-tales-from-the-karman-l" target="_blank">Living Light Kickstarter</a>
+									                            </ul>
+								                            </div>
+							                            </div>
+						                            </div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- End portfolio modal-1 -->
+
+								<!-- Portfolio item-2 -->
+								<div class="portfolio-item col-sm-6 col-md-6 col-lg-3 wow flipInX" data-wow-delay="0.3s">
+									<a href="#" class="thumbnail" data-toggle="modal" data-target="#portfolioModal-2">
+										<img src="img/portfolio/PIMPIN-1.jpg" alt="...">
+										<div class="cover"></div>
+										<div class="caption">
+				                            <div class="caption-content text-center">
+				                                <h2>Visual Design</h2>
+				                                <div class="divider divider-sm"></div>
+												<p>Comprehensive design, photography, and video for SockCess, an online sock subscription company</p>
+				                            </div>
+				                        </div>
+				                    </a>
+								</div>
+
+								<!-- Begin portfolio modal-2 (Vimeo Portfolio) -->
+								<div class="modal fade" id="portfolioModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-7" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content text-white">
+											<div class="close" data-dismiss="modal">
+								                <div class="lr"><div class="rl"></div></div>
+								            </div>
+											<div class="container">
+												<div class="modal-body">
+													<div class="row">
+														<div class="col-lg-7">
+															<div class="modal-image">
+																<img src="img/portfolio/PIMPIN-1.jpg" alt="...">
+															</div>
+														</div>
+														<div class="col-lg-5">
+															<div class="modal-header">
+																<h2 class="modal-title" id="myModalLabel-7">SockCess Visual Design</h2>
+																<div class="divider divider-sm divider-white divider-left"></div>
+															</div>
+															<div class="modal-text">
+																<p>
+																	SockCess had a great plan to deliver fresh socks to customers all over the country. All they needed was the right design and promotional content to lure subscribers to their service.
+																</p>
+																<p>
+																	Over the past year, I've drafted layouts and provided SockCess with all its visual content for their website and social media marketing.
+																</p>
+															</div>
+															<div class="modal-details">
+																<ul>
+									                                <li>Website: <strong><a href="https://besockcessful.com" target="_blank">SockCess</a></strong></li>
+
+									                            </ul>
+								                            </div>
+							                            </div>
+						                            </div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- End portfolio modal-2 -->
+
+								<!-- Portfolio item-3 -->
+								<div class="portfolio-item col-sm-6 col-md-6 col-lg-3 wow flipInX" data-wow-delay="0.4s">
+									<a href="#" class="thumbnail" data-toggle="modal" data-target="#portfolioModal-3">
+										<img src="img/portfolio/Terisa.jpg" alt="...">
+										<div class="cover"></div>
+										<div class="caption">
+				                            <div class="caption-content text-center">
+				                                <h2>Music Video</h2>
+				                                <div class="divider divider-sm"></div>
+												<p>Video produced for the non-profit coalition GCCA (Global Call for Climate Action) </p>
+				                            </div>
+				                        </div>
+				                    </a>
+								</div>
+
+								<!-- Begin portfolio modal-3 (Single Image Portfolio) -->
+								<div class="modal fade" id="portfolioModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-8" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content text-white">
+											<div class="close" data-dismiss="modal">
+								                <div class="lr"><div class="rl"></div></div>
+								            </div>
+											<div class="container">
+												<div class="modal-body">
+													<div class="row">
+														<div class="col-lg-7">
+															<div class="embed-responsive embed-responsive-16by9">
+																<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XgXYP6zqzJk"></iframe>
+															</div>
+														</div>
+														<div class="col-lg-5">
+															<div class="modal-header">
+																<h2 class="modal-title" id="myModalLabel-8">TckTckTck Spoken Word Video</h2>
+																<div class="divider divider-sm divider-white divider-left"></div>
+															</div>
+															<div class="modal-text">
+																<p>
+																	GCCA member Terisa Siagatonu was one of the winners of the Spoken Word for the World competition to perform her poetry live at the UN climate summit in Paris.
+																</p>
+																<p>
+																	Weeks before the climate summit, GCCA contacted me to produce a video for her winning poem. They needed a fast turnaround time in order to publish the video and submit it to the UN as well as the media. The video was featured on TckTckTck.org, YouTube, CNN.com and NBCNews.com.
+																</p>
+															</div>
+															<div class="modal-details">
+																<ul>
+									                                <li>GCCA's Website: <strong><a href="http://tcktcktck.org/" target="_blank">tcktcktck.org</a></strong></li>
+									                                <li>CNN link: <strong><a href="http://edition.cnn.com/videos/tv/2015/12/11/cop21-poets-climate-change-message.cnn" target="_blank">edition.cnn.com</a></strong></li>
+									                                <li>NBC link: <strong><a href="http://www.nbcnews.com/news/asian-america/pacific-islander-poets-use-art-stories-urge-climate-action-un-n476486" target="_blank">NBCNews.com</a></strong></li>
+									                            </ul>
+								                            </div>
+							                            </div>
+						                            </div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- End portfolio modal-3 -->
+
+								<!-- Portfolio item-4 -->
+								<div class="portfolio-item col-sm-6 col-md-6 col-lg-3 wow flipInX" data-wow-delay="0.5s">
+									<a href="#" class="thumbnail" data-toggle="modal" data-target="#portfolioModal-4">
+										<img src="img/portfolio/HIDO.jpg" alt="...">
+										<div class="cover"></div>
+										<div class="caption">
+				                            <div class="caption-content text-center">
+				                                <h2>Promotional Video</h2>
+				                                <div class="divider divider-sm"></div>
+												<p>Short-form video content created to promote Waltham's Finest barber shop through social media</p>
+				                            </div>
+				                        </div>
+				                    </a>
+								</div>
+
+								<!-- Begin portfolio modal-4 (Youtube Portfolio) -->
+								<div class="modal fade" id="portfolioModal-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-8" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content text-white">
+											<div class="close" data-dismiss="modal">
+								                <div class="lr"><div class="rl"></div></div>
+								            </div>
+											<div class="container">
+												<div class="modal-body">
+													<div class="row">
+														<div class="col-lg-7">
+															<div class="embed-responsive embed-responsive-16by9">
+																<iframe class="embed-responsive-item" src="http://player.vimeo.com/video/161670678"></iframe>
+															</div>
+														</div>
+														<div class="col-lg-5">
+															<div class="modal-header">
+																<h2 class="modal-title" id="myModalLabel-8">Waltham's Finest Promo Video</h2>
+																<div class="divider divider-sm divider-white divider-left"></div>
+															</div>
+															<div class="modal-text">
+																<p>
+																	Waltham's Finest barber shop needed a stash of photo and video content to promote their business on social media.
+																</p>
+																<p>
+																	Through extended days on-site, I was able to capture enough footage in one day to produce a series of 15-30 second videos highlighting their craftsmanship.
+																</p>
+															</div>
+															<div class="modal-details">
+
+								                            </div>
+							                            </div>
+						                            </div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- End portfolio modal-4 -->
+
+
+
+							</div> <!-- /.row -->
+
+
+
+						</div> <!-- /.container -->
+					</div>
+					<!-- End portfolio -->
+				</section>
+				<!-- End portfolio section -->
+
+
+				<!-- Begin contact section -->
+				<section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/map-bg.jpg);">
+					<div class="cover"></div>
+
+					<!-- Begin page header-->
+					<div class="page-header-wrapper">
+						<div class="container">
+							<div class="page-header text-center wow bounceInDown" data-wow-delay="0.3s">
+								<h1>Contact <span class="text-main">Me</span></h1>
+								<div class="divider divider-md divider-icon divider-white">//</div>
+								<p class="lead">
+									Let me know a little bit about your project, schedule, and budget. I usually respond within twenty four hours. If I can't take care of your particular project, I'll refer you to someone who can.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- End page header-->
+
+					<div class="contact wow bounceInRight" data-wow-delay="0.4s">
+						<div class="container">
+							<div class="row">
+
+								<div class="col-md-6">
+									<div class="contact-form">
+										<form role="form">
+											<div class="form-group">
+											    <input type="text" class="form-control input-lg" placeholder="Your Name" required>
+											</div>
+											<div class="form-group">
+											    <input type="email" class="form-control input-lg" placeholder="E-mail" required>
+											</div>
+											<div class="form-group">
+											    <input type="text" class="form-control input-lg" placeholder="Subject" required>
+											</div>
+											<div class="form-group">
+											    <textarea class="form-control input-lg" rows="5" placeholder="Message" required></textarea>
+											</div>
+											<button type="submit" class="btn btn-blank btn-lg wow bounceInRight" data-wow-delay="0.8s">Send Message</button>
+										</form>
+									</div>
+								</div>
+
+								<div class="col-md-6">
+									<div class="contact-info">
+										<h3 class="contact-info-heading">Contact Info</h3>
+										<p>If you don't feel comfortable using the form, you can always call or email me:</p>
+
+										<address>
+											<i class="fa fa-briefcase"></i> <strong>Brisk Films</strong><br>
+											<i class="fa fa-map-marker"></i> ( Sixteen ) Burnham St, Somerville, MA <br>
+											<i class="fa fa-phone"></i> ( five zero three ) - 888 - 1147
+										</address>
+										<address>
+											<i class="fa fa-envelope"></i> <a href="mailto:info@demo.com">DonalPatrickOSullivan ( at ) gmail.com</a>
+										</address>
+
+										<!-- <div class="social-icons">
+											<a href="mailto:info@demo.com" target="_blank"><i class="fa fa-envelope fa-lg"></i></a>
+											<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+											<a href="https://twitter.com" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+											<a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+										</div> -->
+									</div>
+								</div>
+
+							</div> <!-- /.row -->
+						</div><!-- /.container -->
+					</div>	<!-- /.contact -->
+					<div class="more-space-xxl"></div>
+				</section>
+				<!-- End contact section -->
+
+				<a href="#" class="scrolltotop"><i class="fa fa-long-arrow-up"></i></a> <!-- Scroll to top button -->
+
+
+
+{% endblock %}
