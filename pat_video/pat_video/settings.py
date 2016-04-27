@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '5&3#gd)!wtu$yvva1^zi^$g#%06aawk62i^*6c_1gh=b4=$+-p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -112,3 +112,9 @@ AWS_SECRET_ACCESS_KEY = 'NBd40mL9qml7fIU4VFum/lTt5v3x3ynLvz1AhJbk'
 AWS_STORAGE_BUCKET_NAME = 'brisk-video-static-files'
 STATIC_URL = '//s3.amazonaws.com/%s/' % AWS_STORAGE_BUCKET_NAME
 ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'duendeinrawcontactform@gmail.com'
+EMAIL_HOST_PASSWORD = 'i-wont-tell-you'
+EMAIL_PORT = 587

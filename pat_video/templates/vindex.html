@@ -71,6 +71,26 @@
 								</li> -->
 							</ul>
 					    </div><!-- /.navbar-collapse -->
+
+							{% if messages %}
+
+							<div class='row'>
+									<div class="col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+
+											{% for message in messages %}
+
+													<p{% if message.tags == "success" %} class="alert alert-success" style="text-align:center; opacity:.8;"
+													{% else %}
+															class="alert alert-warning" style="text-align:center; opacity:.8;"
+													{% endif %}><b>{{ message }}</b></p>
+
+											{% endfor %}
+
+									</div>
+							</div>
+							</div>
+
+							{% endif %}
 					  </div><!-- /.container -->
 					</nav>
 					<!-- End Navbar -->
@@ -591,18 +611,19 @@
 
 								<div class="col-md-6">
 									<div class="contact-form">
-										<form role="form">
+										<form role="form" method="POST" action="/contact/">
+											{% csrf_token %}
 											<div class="form-group">
-											    <input type="text" class="form-control input-lg" placeholder="Your Name" required>
+											    <input type="text" class="form-control input-lg" name="name" placeholder="Your Name" required>
 											</div>
 											<div class="form-group">
-											    <input type="email" class="form-control input-lg" placeholder="E-mail" required>
+											    <input type="email" class="form-control input-lg" name="email" placeholder="E-mail" required>
 											</div>
 											<div class="form-group">
-											    <input type="text" class="form-control input-lg" placeholder="Subject" required>
+											    <input type="text" class="form-control input-lg" name="subject" placeholder="Subject" required>
 											</div>
 											<div class="form-group">
-											    <textarea class="form-control input-lg" rows="5" placeholder="Message" required></textarea>
+											    <textarea class="form-control input-lg" rows="5" name="message" placeholder="Message" required></textarea>
 											</div>
 											<button type="submit" class="btn btn-blank btn-lg wow bounceInRight" data-wow-delay="0.8s">Send Message</button>
 										</form>
