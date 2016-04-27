@@ -104,3 +104,11 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
+
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+STATICFILES_STORAGE = DEFAULT_FILE_STORAGE
+AWS_ACCESS_KEY_ID = 'AKIAI7NI7PXTELWLMAYQ'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'brisk-video-static-files'
+STATIC_URL = '//s3.amazonaws.com/%s/' % AWS_STORAGE_BUCKET_NAME
+ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
